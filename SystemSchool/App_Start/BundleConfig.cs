@@ -19,7 +19,8 @@ namespace SystemSchool
                         "~/Scripts/jquery.validate*"));
 
             bundles.Add(new ScriptBundle("~/bundles/template").Include(
-                        "~/Scripts/js/bootstrap.min.js",
+                        "~/Scripts/angular.js",
+                        "~/Scripts/Cuerpo/modulo.js",
                            "~/Scripts/js/Chart.js",
                            "~/Scripts/js/clndr.js",
                            "~/Scripts/js/moment-2.2.1.js",
