@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="SisSchoolDb" Class="SisSchoolContextDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=DELL-PC\SQLEXPRESS;Initial Catalog=SisSchoolDb;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="SisSchoolDbConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Inscripccion" Member="Inscripccions">
+    <Type Name="Inscripccion">
+      <Column Name="IdEstudiante" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="[Nombres ]" Member="Nombres_" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="[Apellido1 ]" Member="Apellido1_" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="[Apellido2 ]" Member="Apellido2_" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="[Direccion ]" Member="Direccion_" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[Telefono ]" Member="Telefono_" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="Foto" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="[ActaNacimiento ]" Member="ActaNacimiento_" Type="System.Data.Linq.Binary" DbType="Binary(1) NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="[CertificadoMedico ]" Member="CertificadoMedico_" Type="System.Data.Linq.Binary" DbType="Binary(1) NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="[Estado ]" Member="Estado_" Type="System.String" DbType="VarChar(8)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

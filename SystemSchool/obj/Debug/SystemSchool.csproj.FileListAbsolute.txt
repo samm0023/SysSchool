@@ -28,3 +28,4 @@ c:\users\dell\documents\visual studio 2012\Projects\SystemSchool\SystemSchool\bi
 c:\users\dell\documents\visual studio 2012\Projects\SystemSchool\SystemSchool\obj\Debug\SystemSchool.csprojResolveAssemblyReference.cache
 c:\users\dell\documents\visual studio 2012\Projects\SystemSchool\SystemSchool\obj\Debug\SystemSchool.dll
 c:\users\dell\documents\visual studio 2012\Projects\SystemSchool\SystemSchool\obj\Debug\SystemSchool.pdb
+C:\Users\Dell\Documents\Visual Studio 2012\Projects\SystemSchool\SystemSchool\bin\SystemSchool.dll.config
